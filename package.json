@@ -1,0 +1,21 @@
+{
+  "name": "bamazon-hw",
+  "version": "1.0.0",
+  "description": "Noda.js & MySQL",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "cli-table2": "^0.2.0",
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.0.0",
+    "module": "^1.2.5",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Musa Bagci",
+  "license": "ISC"
+}
