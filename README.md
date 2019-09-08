@@ -1,1 +1,2 @@
-![Bamazon Screenshot](./bamazonscreenshot.png)
+![Bamazon Screenshot](./bamazonscreenshoot.png)
+
