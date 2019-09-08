@@ -21,7 +21,7 @@ function loadProducts() {
         if (err) throw err;
     
 
-console.log(res);
+console.table(res);
 
 promptCustomerForItem(res);
     });

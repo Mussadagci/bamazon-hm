@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: "Memookan$65",
-    databes: "bamazon"
+    database: "bamazon"
 });
 connection.connect(function (err) {
     if (err) throw err;
@@ -22,7 +22,7 @@ function makeTable() {
     });
 }
 function promptSupervisor() {
-    iquirer
+    inquirer
         .prompt([
             {
                 type: "list",
